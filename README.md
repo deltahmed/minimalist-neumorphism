@@ -1,21 +1,38 @@
-# Neumorphism <!-- omit in toc -->
 
-> Neumorphism designed Jekyll theme for personal websites, portfolios and resumes.
 
-* Featured on [JAMstack Themes](https://jamstackthemes.dev/theme/jekyll-neumorphism/)
-* Featured on [Jekyll Themes](https://jekyll-themes.com/neumorphism/)
-* Featured on [jekyllthemes](http://jekyllthemes.org/themes/neumorphism/)
+<h1 align="center">🔲 Minimalist Neumorphism 🔳</h1>
 
-[![Open Issues](https://badgen.net/github/open-issues/longpdo/neumorphism)](https://github.com/longpdo/neumorphism/issues)
-[![License](https://badgen.net/github/license/longpdo/neumorphism)](LICENSE)
-<a href="https://jekyll-themes.com">
-    <img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
-</a>
+</p>
+<p align="center"> 
+  <a href="https://github.com/deltahmed/minimalist-neumorphism">
+    <img src="https://img.shields.io/github/contributors/deltahmed/minimalist-neumorphism.svg?style=for-the-badge" alt="deltahmed" /> </a>
+  <a href="https://github.com/deltahmed/minimalist-neumorphism">
+    <img alt="" src="https://img.shields.io/github/issues/deltahmed/minimalist-neumorphism.svg?style=for-the-badge">
+    </a>
+  <a href="https://github.com/deltahmed/minimalist-neumorphism">
+    <img alt="" src="https://img.shields.io/github/forks/deltahmed/minimalist-neumorphism.svg?style=for-the-badge"></a>
+  <a href="https://github.com/deltahmed/minimalist-neumorphism">
+    <img alt="" src="https://img.shields.io/github/stars/deltahmed/minimalist-neumorphism.svg?style=for-the-badge"></a>
+</p>
+<p align="center"> 
+  <a href="https://raw.githubusercontent.com/deltahmed/minimalist-neumorphism/master/LICENSE">
+    <img src="https://img.shields.io/badge/minimalist%20neumorpism%20License-BSD%202%20-blue?style=for-the-badge" alt="deltahmed" /> </a>
+  <a href="https://raw.githubusercontent.com/deltahmed/minimalist-neumorphism/master/NEUMORPHISM_LICENSE">
+    <img alt="" src="https://img.shields.io/badge/neumorpism%20License-MIT%20-blue?style=for-the-badge">
+    </a>
+</p>
 
-[View Demo](https://longpdo.github.io/neumorphism/) · [Report Bug](https://github.com/longpdo/neumorphism/issues) · [Request Feature](https://github.com/longpdo/neumorphism/issues)
 
-<!-- TABLE OF CONTENTS -->
-## Table of Contents <!-- omit in toc -->
+</p>
+<p align="center"> 
+  <a href="https://github.com/deltahmed/minimalist-neumorphism">
+    <img src="https://raw.githubusercontent.com/longpdo/neumorphism/master/docs/screenshot.gif" alt="deltahmed" /> </a>
+</p>
+
+## Fork
+This is a fork version from the jekyll theme [Neumorphism](https://github.com/longpdo/neumorphism) most of the documentation and code are from here.
+
+## Table of Contents
 
 * [About The Project](#about-the-project)
   * [Built With](#built-with)
@@ -37,13 +54,13 @@
 
 ## About The Project
 
-[![Project Screenshot][product-screenshot]](https://longpdo.github.io/neumorphism/)
+
 
 This is a personal website built with `Jekyll` and hosted on `Github Pages`, which is based on the new `Neumorphism` design trend and was developed with a mobile-first approach. This can be used by developers, who want to showcase their resume and portfolio. If you want to use this for your own website, fork this repository and then refer to [personalize and customize](#personalize-and-customize).
 
 ### Built With
 
-* [Jekyll](https://jekyllrb.com/)
+![Jekyll](https://img.shields.io/badge/-Jekyll-05122A?style=for-the-badge&logo=jekyll)
 
 ### Features
 
@@ -63,22 +80,38 @@ This is a personal website built with `Jekyll` and hosted on `Github Pages`, whi
 
 To get a local copy up and running follow these simple steps.
 
-`The commands and instructions I provide are for MacOS - please look up the specific commands for your OS on your own.`
+`The commands and instructions I provide are for Linux - please look up the specific commands for your OS on your own. `
+
+if you are on MacOS check the [Neumorphism](https://github.com/longpdo/neumorphism) documentation.
+
 
 ### Prerequisites
+
+* Update apt
+
+```sh
+sudo apt update
+```
 
 * [NodeJS](https://nodejs.org/en/)
 
 ```sh
-brew install node
+sudo apt install nodejs
 ```
 
-If you need to switch between Node versions regurlarly, I would recommend to install Node via [Node Version Manager](https://github.com/nvm-sh/nvm/blob/master/README.md#manual-install).
+* Install npm
+
+```sh
+sudo apt install npm
+```
 
 * [Jekyll](https://jekyllrb.com/)
 
 ```sh
-gem install bundler jekyll
+sudo apt-get install ruby-full build-essential zlib1g-dev
+```
+```sh
+gem install jekyll bundler
 ```
 
 For more information, refer to [this](https://jekyllrb.com/docs/installation/).
@@ -89,47 +122,52 @@ For more information, refer to [this](https://jekyllrb.com/docs/installation/).
 npm install -g yarn
 ```
 
-### Installation
-
-> Recommended way: If you want to contribute to this theme or open issues due to problems implementing this on your own, I would recommend forking the repository directly. This makes it easier for me to solve open issues and questions or check pull requests.
-
-1.1: Fork the repository (using the `Fork` button at the top) and then clone the repository
+* Install scss to change the scss files
 
 ```sh
-# Replace {YOUR_USERNAME} with your actual username
-git clone https://github.com/{YOUR_USERNAME}/neumorphism.git
+npm install -g scss
 ```
 
-or
+### Installation
 
-1.2: Create your own repository (using the green `Use this template` button at the top) and then clone the repository
+> Recommended way: If you want to contribute to this theme or open issues due to problems implementing this on your own, I would recommend forking the [Neumorphism](https://github.com/longpdo/neumorphism) repository directly. This makes it easier for me to solve open issues and questions or check pull requests.
+
++ Two ways :
+  + Fork the repository (using the `Fork` button at the top) and then clone the repository
+
+  + Create your own repository (using the green `Use this template` button at the top) and then clone the repository
 
 ```sh
 # Replace {YOUR_USERNAME}, {YOUR_REPOSITORY} with the actual values
 git clone https://github.com/{YOUR_USERNAME}/{YOUR_REPOSITORY}.git
 ```
 
-2: Change directory into neumorphism
+2: Change directory into minimalist-neumorphism
 
 ```sh
-cd neumorphism
+cd minimalist-neumorphism
 ```
 
 3: Install dependencies
 
 ```sh
 yarn
+bundle update
 bundle install
+bundle config set --local path 'vendor/bundle'
+sudo chown -R $USER /usr/local/bin
+bundle add webrick
 ```
 
 <!-- USAGE EXAMPLES -->
 
 ## Usage
 
-* Run and develop locally with live server at `http://localhost:4000`, this will also build production-ready `JS` and `SCSS` assets with every change
-
+* Run and develop locally with live server at `http://localhost:4000`
+* In two different terminals :
 ```sh
-gulp
+sass --watch _sass/main.scss assets/css/main.min.css
+bundle exec jekyll serve
 ```
 
 * After committing and pushing, see the `Settings` page of your repository to see where your site is published at via `Github Pages`.
@@ -190,7 +228,9 @@ Contributions are what make the open source community such an amazing place to l
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+[![minimalist-neumorpism License](https://img.shields.io/badge/minimalist%20neumorpism%20License-BSD%202%20-blue?style=for-the-badge)](NEUMORPHISM_LICENSE)
+
+[![neumorpism License](https://img.shields.io/badge/neumorpism%20License-MIT%20-blue?style=for-the-badge)](NEUMORPHISM_LICENSE)
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -206,5 +246,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[product-screenshot]: https://raw.githubusercontent.com/longpdo/neumorphism/master/docs/screenshot.gif
 [github-repo-info]: https://raw.githubusercontent.com/longpdo/neumorphism/master/docs/github-repo-info.png

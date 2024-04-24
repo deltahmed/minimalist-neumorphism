@@ -39,10 +39,10 @@
           <span class="label">GitHub</span>
         </a>
       {% endif %}
-
-      {% if site.youtube_link != null %}
+      
+      {% if site.youtube_username != null %}
         <a class="social-link" aria-label="My Youtube" target="_blank" rel="noreferrer"
-          href="{{site.youtube_link}}"
+          href="https://www.youtube.com/channel/{{site.youtube_username}}"
         >
           <svg viewBox="0 0 200 200" class="circle">
             <circle cx="100" cy="100" r="80" />
@@ -56,10 +56,10 @@
         </a>
       {% endif %}
 
-      {% if site.tiktok_link != null %}
+      {% if site.tiktok_username != null %}
         <a class="social-link" aria-label="My Tiktok" target="_blank" rel="noreferrer"
-          href="{{site.tiktok_link}}"
-        >
+          href="https://www.tiktok.com/@{{site.tiktok_username}}">
+        
           <svg viewBox="0 0 200 200" class="circle">
             <circle cx="100" cy="100" r="80" />
           </svg>
@@ -72,10 +72,10 @@
         </a>
       {% endif %}
 
-      {% if site.instagram_link != null %}
+      {% if site.instagram_username != null %}
         <a class="social-link" aria-label="My Instagram" target="_blank" rel="noreferrer"
-          href="{{site.instagram_link}}"
-        >
+          href="https://www.instagram.com/{{site.instagram_username}}">
+        
           <svg viewBox="0 0 200 200" class="circle">
             <circle cx="100" cy="100" r="80" />
           </svg>

@@ -17,21 +17,21 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: airbnb
-  title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
+- title: Super compagny
+  title-url: https://github.com/deltahmed/minimalist-neumorphism
+  date: Sep 2020 - Present
+  subtitle: Developer
   tags:
-    - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
+    - tag: Python
+    - tag: C
+    - tag: Java
+    - tag: Scss
   timeline-side: right
 
-- title: Google
-  title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
+- title: Super compagny
+  title-url: https://github.com/deltahmed/minimalist-neumorphism
+  date: Mar 2020 - Sep 2020
+  subtitle: Engineer
   tags:
     - tag: Flutter
     - tag: Dart
@@ -39,15 +39,15 @@
   timeline-side: right
 
 - title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: M.Sc. Computer Science
+  title-url: https://github.com/deltahmed/minimalist-neumorphism
+  date: 2015 - 2020
+  subtitle: Computer Science Engineering
   timeline-side: left
 
-- title: Facebook
-  title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
+- title: Super compagny
+  title-url: https://github.com/deltahmed/minimalist-neumorphism
+  date: 1 March 2015 - 2 March 2015
+  subtitle: Developer
   tags:
     - tag: React
     - tag: Node
@@ -55,7 +55,7 @@
   timeline-side: right
 
 - title: Super University
-  title-url: https://example.com/
-  date: 2014 - 2017
-  subtitle: B.A. Computer Science
+  title-url: https://github.com/deltahmed/minimalist-neumorphism
+  date: 1400 - 2015
+  subtitle: Computer Science
   timeline-side: left
